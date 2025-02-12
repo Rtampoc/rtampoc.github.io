@@ -14,22 +14,22 @@ class Info {
         this.social = [
             { 
                 Name: 'facebook', 
-                Link: '', 
+                Link: 'https://www.facebook.com/eytiin.018/', 
                 Icon: 'bi bi-facebook',
                 Class: 'facebook'
             }, 
             { 
                 Name: 'linkedin', 
-                Link: '', 
+                Link: 'https://www.linkedin.com/in/ralph-lawrence-tampoc-640b781a2/', 
                 Icon: 'bi bi-linkedin',
                 Class: 'linkedin'
             },
-            // { 
-            //     Name: 'figma', 
-            //     Link: '', 
-            //     Icon: 'bi bi-linkedin',
-            //     Class: 'figma'
-            // }
+            { 
+                Name: 'instagram', 
+                Link: 'https://www.instagram.com/ralpht1221/', 
+                Icon: 'bi bi-instagram',
+                Class: 'instgram'
+            }
         ];
         this.education = [{
             Degree: 'Bachelor of Science in Information System',
@@ -41,7 +41,7 @@ class Info {
             Degree: 'Secondary',
             School: 'Maranatha Christian Academy',
             Year: '2011',
-            Address: 'Criscor Compound, Crossing Street, Calamba, Laguna'
+            Address: 'Criscor Compound, Crossing Street, Calamba City, Laguna'
         },
         {
             Degree: 'Primary',
@@ -54,10 +54,11 @@ class Info {
             Description: 'Developed and maintained robust web applications using ASP.NET MVC framework, ensuring high performance, scalability, and security. Built interactive UI components with Knockout.js and JavaScript, enabling responsive and dynamic client-side experiences. Implemented backend logic in C#, creating efficient APIs and business logic layers to support client requirements. Utilized Razor for designing and rendering server-side views, ensuring seamless integration of front-end and back-end development. Build a Bincard Inventory System, enhancing tracking, item updates, and transaction management functionalities. Optimized database interactions and queries to maintain fast and reliable data retrieval processes.',
             Position: 'Junio Fullstack Developer',
             Duration: 'July 2023 - Present',
-            Address: 'KM 94 Brgy. Milagrosa Calamba city, Laguna'
+            Address: 'KM 94 Brgy. Milagrosa Calamba City, Laguna'
         }, {
             Company: 'Accenture Inc.',
-            Description: 'SAP ABAP Developer - Investigated, analyzed, and debugged defective programs/objects in the system. Document, analyzed, and report test results. Maintained and provide code fixes to copy programs from the source. Created a new interactive report that displays the Automatch summary and the total number of records that will show the total bank transaction, No. of auto posted transaction and No. of manual transaction details. Involves in language translation of the reports using Adobe forms. SAP FICO - Provide business and functional support for the SAP FI module including its sub-ledgers such as AP, AR and AA. Facilitate requirements gathering workshop/discussions and assess, challenge, and document the business requirements. Provide alternatives and recommend a solution. Work with different teams and IT partners in different parts of the world provide services to clients. Identify and apply continuous improvement processes for operational efficiencies, drive process integration, and standardation',
+            Description: 'SAP ABAP Developer - Investigated, analyzed, and debugged defective programs/objects in the system. Document, analyzed, and report test results. Maintained and provide code fixes to copy programs from the source. Created a new interactive report that displays the Automatch summary and the total number of records that will show the total bank transaction, No. of auto posted transaction and No. of manual transaction details. Involves in language translation of the reports using Adobe forms.', 
+            'SAP FICO - Provide business and functional support for the SAP FI module including its sub-ledgers such as AP, AR and AA. Facilitate requirements gathering workshop/discussions and assess, challenge, and document the business requirements. Provide alternatives and recommend a solution. Work with different teams and IT partners in different parts of the world provide services to clients. Identify and apply continuous improvement processes for operational efficiencies, drive process integration, and standardation',
             Position: 'Associate Software Engineer',
             Duration: 'November 2021 - September 2023',
             Address: 'Uptown Tower 2, 5 East 11th Drive, Uptown Bonifacio 1634 Taguig'
@@ -66,7 +67,7 @@ class Info {
             Description: 'Assists in the development of the IT Department’s policies and procedures and recommends to ISMS management for improvement. Assists with activities of system design, implementation, administration and network management. Provide IT support services, troubleshooting and system operation. Developing solutions for existing products and systems. Collaborating with developers, testers and end users to ensure technical compatibility. Participated in the development of enterprise-level application using ASP.NET, C# and SQL. Created and implemented test queries using MS SQL Server. Knowledgeable in troubleshooting of both hardware and software in a windows environment. Basic VMware experience & knowledge to troubleshoot or escalates. Basic knowledge in Excel VBA Macro for automating common repetitive task.',
             Position: 'System Analysts',
             Duration: 'September 2020 - October 2021',
-            Address: 'Modern Village, 699 Mayapa, Calamba city, Laguna'
+            Address: 'Modern Village, 699 Mayapa, Calamba City, Laguna'
         }];
         this.skills = [{
             Name: 'C# .NET',
