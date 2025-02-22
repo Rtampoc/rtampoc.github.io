@@ -8,8 +8,8 @@ class Info {
         this.Degree = 'Bachelor of Science In Information System';
         this.Email = 'rap.tampoc@gmail.com';
         this.website = { Name: '', Link: '' };
-        this.profile = '';
-        this.banner = '';
+        this.profile = 'aasets/im/Profile.jpg';
+        this.banner = 'aasets/im/BorderPic.jpg';
         this.AboutPicture = 'assets/img/CloseUpSide.jpg';
         this.social = [
             { 
