@@ -73,10 +73,10 @@ class Info {
             Value: 50
         }, {
             Name: 'Web Development',
-            Value: 55
+            Value: 50
         }, {
             Name: 'SQL Server Database',
-            Value: 65
+            Value: 70
         }, {
             Name: 'Video Editing',
             Value: 50
@@ -91,7 +91,7 @@ class Info {
             Value: 45
         }, {
             Name: 'Knockoutjs',
-            Value: 55
+            Value: 40
         }, {
             Name: 'VB .Net',
             Value: 65
@@ -107,6 +107,12 @@ class Info {
         }, {
             Name: 'SAP ABAP',
             Value: 55
+        }, {
+            Name: 'Computer Troubleshooting',
+            Value: 80
+        }, {
+            Name: 'Networking',
+            Value: 75
         }];
         // this.Projects = [{
         //     Title: 'Program Management System',
