@@ -53,7 +53,7 @@ class Info {
             Company: 'Mayo  Holdings and Construction Inc.',
             Description: 'Developed and maintained robust web applications using ASP.NET MVC framework, ensuring high performance, scalability, and security. Built interactive UI components with Knockout.js and JavaScript, enabling responsive and dynamic client-side experiences. Implemented backend logic in C#, creating efficient APIs and business logic layers to support client requirements. Utilized Razor for designing and rendering server-side views, ensuring seamless integration of front-end and back-end development. Build a Bincard Inventory System, enhancing tracking, item updates, and transaction management functionalities. Optimized database interactions and queries to maintain fast and reliable data retrieval processes.',
             Position: 'Junio Fullstack Developer',
-            Duration: 'July 2023 - Present',
+            Duration: 'July 2023 - March 2025',
             Address: 'KM 94 Brgy. Milagrosa Calamba City, Laguna'
         }, {
             Company: 'Accenture Inc.',
@@ -114,49 +114,29 @@ class Info {
             Name: 'Networking',
             Value: 75
         }];
-        // this.Projects = [{
-        //     Title: 'Program Management System',
-        //     Description: 'Portal thru other applications to manage the company’s projects, employees, and clients. It includes a dashboard, project management, employee management, client management, and a reporting system.',
-        //     Imgs: [
-        //         { title: 'Profile', src: 'assets/img/Projects/PMS/Profile.png' },
-        //         { title: 'Dashboard', src: 'assets/img/Projects/PMS/Dashboard.png' },
-        //         { title: 'Login', src: 'assets/img/Projects/PMS/Login.png' },
-        //     ]
-        // }, {
-        //     Title: 'HR Management System',
-        //     Description: 'HR Management System is a web-based application that helps companies manage their human resources more efficiently. It includes dynamic company structure, employee management, Holiday, separation, and a reporting system.',
-        //     Imgs: [
-        //         { title: 'Dashboard', src: 'assets/img/Projects/HRMS/Dashboard.png' },
-        //         { title: 'Employees', src: 'assets/img/Projects/HRMS/Employees.png' },
-        //     ]
-        // }, {
-        //     Title: 'Gatepass Management System',
-        //     Description: 'Gatepass Management System is a web-based application that helps companies monitor and tract their assets.',
-        //     Imgs: [
-        //         { title: 'Dashboard', src: 'assets/img/Projects/Gatepass/Dashboard.png' },
-        //         { title: 'For Appoval', src: 'assets/img/Projects/Gatepass/ForApproval.png' },
-        //     ]
-        // },{
-        //     Title: 'Accounting System',
-        //     Description: 'Accounting System is a web-based application that helps companies manage their accounting more efficiently.',
-        //     Imgs: [
-        //         { title: 'Journal', src: 'assets/img/Projects/AccountingSystem/Journal.png' },
-        //         { title: 'Chart of Account', src: 'assets/img/Projects/AccountingSystem/ChartOfAccount.png' },
-        //     ]
-        // },{
-        //     Title: 'Attendance System',
-        //     Description: 'Timekeeping System is a web-based application that helps companies keep track of their employees attendance.',
-        //     Imgs: [
-        //         { title: 'Employee', src: 'assets/img/Projects/Attendance/PerEmployee.png' },
-        //         { title: 'Dashboard', src: 'assets/img/Projects/Attendance/Dashboard.png' },
-        //     ]
-        // },{
-        //     Title: 'Purchasing',
-        //     Description: 'Purchasing System is a web-based application that helps companies manage their purchasing more efficiently.',
-        //     Imgs: [
-        //         { title: 'Supplier', src: 'assets/img/Projects/Purchasing/Supplier.png' },
-        //     ]
-        // },]
+        this.Projects = [{
+            Title: 'Bincard System',
+            Description: 'Bincard System is web-based application that helps the companies to manage and track all IT Assets.',
+            Imgs: [
+                { title: 'Dashboard', src: '' },
+                { title: 'Item Details', src: '' },
+                { title: 'Item Activity', src: '' },
+            ]
+        }, {
+            Title: 'PR/DS Release Program - Indirect Purchasing',
+            Description: 'PR/DS Release Program is an additional feature of the Purchasing System software designed to assist purchasing staff in releasing the OPR for items.',
+            Imgs: [
+                { title: 'Main', src: 'assets/img/Projects/PRDSRelease/prdsMain.png' },
+                { title: 'Details', src: 'assets/img/Projects/PRDSRelease/prdsDetails.png' },
+                { title: 'Records', src: 'assets/img/Projects/PRDSRelease/prdsRecords.png' },
+            ]
+        }, {
+            Title: 'Gateway Changer',
+            Description: 'Gateway Changer is software application that help the company to change ip address and gateway instantly.',
+            Imgs: [
+                { title: 'Gateway Changer', src: 'assets/img/Projects/GatewayChanger/gatewaychnager.png' },
+            ]
+        }];
         this.randomInterval = function () {
             var min = 1500, max = 5000;
             return Math.floor(Math.random() * (max - min + 1) + min);
