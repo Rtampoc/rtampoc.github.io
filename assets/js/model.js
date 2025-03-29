@@ -118,9 +118,9 @@ class Info {
             Title: 'Bincard System',
             Description: 'Bincard System is web-based application that helps the companies to manage and track all IT Assets.',
             Imgs: [
-                { title: 'Dashboard', src: '' },
-                { title: 'Item Details', src: '' },
-                { title: 'Item Activity', src: '' },
+                { title: 'Dashboard', src: 'assets/img/Projects/BincardSystem/dashboard.png' },
+                { title: 'Item Details', src: 'assets/img/Projects/BincardSystem/details.png' },
+                { title: 'Item Activity', src: 'assets/img/Projects/BincardSystem/activity.png' },
             ]
         }, {
             Title: 'PR/DS Release Program - Indirect Purchasing',
