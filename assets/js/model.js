@@ -7,7 +7,7 @@ class Info {
         this.Address = 'B54 L31 Ph3 Villa de Calamba, Brgy. La Mesa, Calamba City, Laguna, 4027';
         this.Degree = 'Bachelor of Science In Information System';
         this.Email = 'rap.tampoc@gmail.com';
-        this.website = { Name: '', Link: '' };
+        this.website = { Name: 'rtampoc.github.io', Link: 'https://rtampoc.github.io' };
         this.profile = 'assets/img/Profile.jpg';
         this.banner = 'assets/img/BorderPic.jpg';
         this.AboutPicture = 'assets/img/CloseUpSide.jpg';
