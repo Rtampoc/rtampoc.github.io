@@ -134,7 +134,7 @@ class Info {
             Title: 'Gateway Changer',
             Description: 'Gateway Changer is software application that help the company to change ip address and gateway instantly.',
             Imgs: [
-                { title: 'Gateway Changer', src: 'assets/img/Projects/GatewayChanger/gatewaychnager.png' },
+                { title: 'Gateway Changer', src: 'assets/img/Projects/GatewayChanger/gatewaychanger.png' },
             ]
         }];
         this.randomInterval = function () {
